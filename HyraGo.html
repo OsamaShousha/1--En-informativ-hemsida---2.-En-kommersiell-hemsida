@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyra Go- Hyra genom Hyra Go: ett smartare och billigare val</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+   
+   <style>
+       /* .product-card { transition: all 0.3s; }*/
+        .product-card:hover { transform: scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/IkeaImages/sanjeevan-satheeskumar-MG8c-4n1QVE-unsplash.jpg') center/cover; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">Hyra Go</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#produkter">Produkter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#omoss">Om oss</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light ms-3 px-4" href="#">Varukorg (0)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="hero py-5 text-center text-white">
+        <div class="container py-5">
+            <h1 class="display-3 fw-bold">Behöver du en bärbar dator för kortare projekt, resa eller som reserv under reparation? </h1>
+            <p class="lead fs-4 mb-4">Kvalitet. Miljö. Design.</p>
+            <a href="#produkter" class="btn btn-success btn-lg px-5 py-3 fs-5">Shoppa nu</a>
+        </div>
+    </section>
+
+   
+    <section id="produkter" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Hyra bärbara datorer i Stockholm</h2>
+            <div class="row g-4">
+                <!-- Produkt 1 -->
+                <div class="col-md-4">
+                    <div class="card product-card h-100 border-0 shadow">
+                        <img src="/IkeaImages/alex-knight-j4uuKnN43_M-unsplash (1).jpg" class="card-img-top" alt="Återanvändbar flaska">
+                        <div class="card-body">
+                            <h5 class="card-title">Arbetsdator för jobb eller studier</h5>
+                            <p class="text-success fw-bold">299 kr</p>
+                            <p class="card-text">Flexibelt och lätt boka denna dator.</p>
+                            <button onclick="alert('Tillagd i varukorg! 🎉')" class="btn btn-success w-100">Lägg i varukorg</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card product-card h-100 border-0 shadow">
+                        <img src="/IkeaImages/anete-lusina-zwsHjakE_iI-unsplash.jpg" class="card-img-top" alt="Bambu tandborste">
+                        <div class="card-body">
+                            <h5 class="card-title">PRO Speldator 32 GB ram </h5>
+                            <p class="text-success fw-bold">149 kr</p>
+                            <p class="card-text">Rabatter på långtidshyror..</p>
+                            <button onclick="alert('Tillagd i varukorg! 🎉')" class="btn btn-success w-100">Lägg i varukorg</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card product-card h-100 border-0 shadow">
+                        <img src="/IkeaImages/alex-knight-j4uuKnN43_M-unsplash (1).png" class="card-img-top" alt="Återvunnen ryggsäck">
+                        <div class="card-body">
+                            <h5 class="card-title">PRO jobbdator (+Adobe-serien)</h5>
+                            <p class="text-success fw-bold">649 kr</p>
+                            <p class="card-text">Finns mus och andra tillbehör vid behov.</p>
+                            <button onclick="alert('Tillagd i varukorg! 🎉')" class="btn btn-success w-100">Lägg i varukorg</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Vad våra kunder säger</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <p class="fst-italic">"Toppen uthyraren, topp maskin"</p>
+                            <strong> Maria S.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <p class="fst-italic">"Toppen! Hjälpsam.."</p>
+                            <strong> Johan L.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <p class="fst-italic">"Väldigt snabb och smidig uthyrning!."</p>
+                            <strong>Emma K.</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Hyra GO</h5>
+                    <p>Hyra när det passar dig bäst</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; Hyra Go 2026 </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
